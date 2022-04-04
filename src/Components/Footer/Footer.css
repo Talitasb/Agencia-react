@@ -1,0 +1,39 @@
+footer ul li{
+    color:gray;
+}
+            footer .boxs{
+                width:520px;
+                right:0px;
+                min-height: 150px;
+                padding: 20px;
+                position: relative
+                          }
+
+            s:nth-child(4){
+                width: 400px;
+                }
+            
+                .boxs h5{
+                    color: white;
+            margin-bottom: 20px;
+            margin-left: 40px;
+                }
+
+                .boxs ul li{
+                    margin: 10px 0px;
+                    list-style: none;
+                    }
+            
+                    .boxs ul li a{
+                        color: grey;
+                        text-decoration: none;
+                                }
+                   .boxs ul li a:hover{
+                       color:#ffff
+                       }
+                      
+                       .pagamento{
+                        width: 270px;
+                        height: 150px;
+                        margin-left: 15px;
+                       }

@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vm;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    background: whitesmoke;
+    color: #cc0e00;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 30px;
+    text-decoration: none;
+                                }
+                                         
+header nav p {
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+       }
+
+header nav ul li {
+    margin: 0 15px;
+       color:inherit;
+                }
+
+                header nav ul li:hover {
+                   color:  white;
+                    }
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+padding: 20px;
+}
+
+input, textarea{
+    width: 30%;
+padding: 10px;
+margin-bottom: 1em;
+
+}
+
+label{
+    font-weight: bold;
+                }
+
+                .inputdate{
+width: 10px;
+                }
+                .checkbox{
+                    width: 50px;   
+                    cursor:pointer;
+                                           }
+.row{
+    width: 50px;
+    padding: 30px 30px;
+    display:table;
+    width: 100%;
+   }
+   
+   p{
+    width: auto;
+    display: inline-block;
+    font-weight: bold
+   }
+.form-control{
+    width: auto;
+display: inline-block;
+}
+.pacotes {
+    background: rgb(214, 213, 213);
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .pacotes-titulo {
+    width: 100%;
+    text-align: center;
+    margin: 23px 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 24px;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-imagem {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 24px 0 0;
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19839;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    right: 0;
+    top: 160px;
+    background: rgb(81, 81, 225);
+    border-radius: 0 8 8 0px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.destinos {
+    background: white;
+    padding: 15px;
+}
+
+.destinos .destinos-cards {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destinos .destino-titulo {
+    width: 100%;
+    text-align: center;
+    margin: 23px 0;
+}
+
+.destinos .card2 {
+    width: 250px;
+    height: 350px;
+    background:rgb(238, 235, 235);
+    border-radius: 24px 24px;
+    margin: 25px;
+    position: relative;
+}
+
+.destinos .card2-imagem {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 24px 0 0;
+}
+
+.destinos .card2-content {
+    padding: 0 15px;
+}
+
+.destinos .card2-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.destinos .card2-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.destinos .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.destinos .card2-content h1 {
+    font-size: 1rem;
+}
+
+.destinos .card2 .card2-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19839;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.destinos .card2 .card2-tag-bottom {
+    position: absolute;
+    right: 0;
+    top: 160px;
+    background: rgb(81, 81, 225);
+    border-radius: 0 8 8 0px;
+    padding: 5px 10px;
+}
+
+.destinos .card2 .card2-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+        footer{
+    width: 100%;
+    min-height: 250px;
+    background: rgb(214, 213, 213);
+    display: flex;
+    align-items: center;
+}
+footer ul li{
+color:gray;
+}
+footer .boxs{
+    width:520px;
+    right:0px;
+    min-height: 150px;
+    padding: 20px;
+    position: relative
+              }
+
+s:nth-child(4){
+    width: 400px;
+    }
+
+    .boxs h5{
+        color: white;
+margin-bottom: 20px;
+margin-left: 40px;
+    }
+
+    .boxs ul li{
+        margin: 10px 0px;
+        list-style: none;
+        }
+
+        .boxs ul li a{
+            color: grey;
+            text-decoration: none;
+                    }
+       .boxs ul li a:hover{
+           color:#ffff
+           }
+          
+           .pagamento{
+            width: 270px;
+            height: 150px;
+            margin-left: 15px;
+           }
+@media (max-width: 480px) {
+    header nav ul {
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    header nav ul {
+        position: absolute;
+    }
+}

@@ -1,0 +1,179 @@
+
+            .pacotes {
+                background: rgb(214, 213, 213);
+                padding: 15px;
+            }
+            
+            .pacotes .pacotes-cards {
+                display: flex;
+                max-width: 950px;
+                margin: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .pacotes .pacotes-titulo {
+                width: 100%;
+                text-align: center;
+                margin: 23px 0;
+            }
+            
+            .pacotes .card {
+                width: 250px;
+                height: 350px;
+                background: white;
+                border-radius: 24px 24px;
+                margin: 25px;
+                position: relative;
+            }
+            
+            .pacotes .card-imagem {
+                width: 250px;
+                height: 200px;
+                border-radius: 24px 24px 0 0;
+            }
+            
+            .pacotes .card-content {
+                padding: 0 15px;
+            }
+            
+            .pacotes .card-content ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                padding: 0;
+            }
+            
+            .pacotes .card-content ul li {
+                font-size: 0.7rem;
+                display: flex;
+                align-items: center;
+                margin: 3px 0;
+                color: grey;
+                font-weight: bold;
+            }
+            
+            .pacotes .card-content li svg {
+                width: 16px;
+                height: 16px;
+                margin-right: 10px;
+            }
+            
+            .pacotes .card-content h1 {
+                font-size: 1rem;
+            }
+            
+            .pacotes .card .card-tag-top {
+                position: absolute;
+                right: 0;
+                top: 15px;
+                background: #f19839;
+                border-radius: 8px 0 0 8px;
+                padding: 5px 10px;
+            }
+            
+            .pacotes .card .card-tag-bottom {
+                position: absolute;
+                right: 0;
+                top: 160px;
+                background: rgb(81, 81, 225);
+                border-radius: 0 8 8 0px;
+                padding: 5px 10px;
+            }
+            
+            .pacotes .card .card-tag p {
+                margin: 0;
+                font-size: 0.8rem;
+                color: white;
+                font-weight: bold;
+            }
+            
+            .destinos {
+                background: white;
+                padding: 15px;
+            }
+            
+            .destinos .destinos-cards {
+                display: flex;
+                max-width: 950px;
+                margin: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .destinos .destino-titulo {
+                width: 100%;
+                text-align: center;
+                margin: 23px 0;
+            }
+            
+            .destinos .card2 {
+                width: 250px;
+                height: 350px;
+                background:rgb(238, 235, 235);
+                border-radius: 24px 24px;
+                margin: 25px;
+                position: relative;
+            }
+            
+            .destinos .card2-imagem {
+                width: 250px;
+                height: 200px;
+                border-radius: 24px 24px 0 0;
+            }
+            
+            .destinos .card2-content {
+                padding: 0 15px;
+            }
+            
+            .destinos .card2-content ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                padding: 0;
+            }
+            
+            .destinos .card2-content ul li {
+                font-size: 0.6rem;
+                display: flex;
+                align-items: center;
+                margin: 3px 0;
+                color: grey;
+                font-weight: bold;
+            }
+            
+            .destinos .card-content li svg {
+                width: 16px;
+                height: 16px;
+                margin-right: 10px;
+            }
+            
+            .destinos .card2-content h1 {
+                font-size: 1rem;
+            }
+            
+            .destinos .card2 .card2-tag-top {
+                position: absolute;
+                right: 0;
+                top: 15px;
+                background: #f19839;
+                border-radius: 8px 0 0 8px;
+                padding: 5px 10px;
+            }
+            
+            .destinos .card2 .card2-tag-bottom {
+                position: absolute;
+                right: 0;
+                top: 160px;
+                background: rgb(81, 81, 225);
+                border-radius: 0 8 8 0px;
+                padding: 5px 10px;
+            }
+            
+            .destinos .card2 .card2-tag p {
+                position: absolute;
+                margin: 0;
+                font-size: 0.8rem;
+                color: white;
+                font-weight: bold;
+            }

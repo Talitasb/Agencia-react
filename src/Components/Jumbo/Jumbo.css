@@ -1,0 +1,11 @@
+.header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url("../../assets/img/praia.jpg");
+}
+
+.display-4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:orange;
+    text-shadow: #fdbf16 1px 1px 1px, #1d0707 -1px 1px 1px, #160909 1px -1px 1px, #990909 -1px -1px 1px;
+    text-align: center;
+}
